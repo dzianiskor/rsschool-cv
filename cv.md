@@ -19,3 +19,16 @@ Discord - Denis(dzianiskor)#5139
     * NodeJs  
     * jQuery
 * SQL
+
+###Code examples
+```
+(async () => {
+    let payload = {code};
+    let res = await axios.post(SERVER_URL, payload);
+    let data = res.data;
+    props.setUser(data)
+    setSavedData('user', data)
+    props.setIsLogin()
+    history.push('/')
+})()
+```
