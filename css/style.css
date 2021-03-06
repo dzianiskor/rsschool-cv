@@ -38,10 +38,7 @@ header, .main-container {
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
-}
-
-.main-container {
-    align-items: baseline;
+    padding: 10px;
 }
 
 .avatar-wrapper, .info {
@@ -89,6 +86,7 @@ header, .main-container {
 
 .main-container {
     margin-top: 30px;
+    align-items: baseline;
 }
 
 .main-container .info {
@@ -206,4 +204,15 @@ footer {
 
 .copy {
     font-size: 16px;
+}
+
+@media (max-width: 900px) {
+    header, .main-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .avatar-wrapper, .info, .main-container .content, .title {
+        width: 100%;
+    }
 }
