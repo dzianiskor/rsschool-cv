@@ -1,0 +1,60 @@
+main {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    max-width: 1200px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.avatar-wrapper {
+    flex-grow: 1;
+    width: 200px;
+    text-align: center;
+}
+
+.avatar {
+    width: 160px;
+    height: 160px;
+    border-color: #d3d3d3;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.title {
+    padding: 18px 0 22px 0;
+    background-color: #4685c6;
+    flex-grow: 3;
+    width: 200px;
+}
+
+.title .name {
+    color: #fff;
+    font-weight: 400;
+    font-size: 46px;
+    padding-left: 24px;
+    margin: 10px;
+}
+
+.line {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 8px;
+}
+
+.title .profession {
+    padding-left: 24px;
+    margin: 20px 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.main-container {
+    margin-top: 30px;
+}
