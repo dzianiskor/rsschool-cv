@@ -1,0 +1,218 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+body a {
+    text-decoration: none;
+    color: black;
+}
+
+body ul {
+    margin: 0;
+    padding: 0;
+}
+
+body li {
+    display: block;
+}
+
+main {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    flex: 1 0 auto;
+}
+
+header, .main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.avatar-wrapper, .info {
+    flex-grow: 1;
+    width: 200px;
+    text-align: center;
+}
+
+.avatar {
+    width: 160px;
+    height: 160px;
+    border-color: #d3d3d3;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.title {
+    padding: 18px 0 22px 0;
+    background-color: #4685c6;
+    flex-grow: 3;
+    width: 200px;
+}
+
+.title .name {
+    color: #fff;
+    font-weight: 400;
+    font-size: 46px;
+    padding-left: 24px;
+    margin: 10px;
+}
+
+.line {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 8px;
+}
+
+.title .profession {
+    padding-left: 24px;
+    margin: 20px 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.main-container {
+    margin-top: 30px;
+    align-items: baseline;
+}
+
+.main-container .info {
+    text-align: left;
+}
+
+.main-container .content {
+    flex-grow: 3;
+    width: 200px;
+}
+
+.info > section {
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.info-title {
+    color: #4685c6;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+    border-bottom: 2px solid #4685c6;
+    padding-bottom: 8px;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.address > img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.address > span {
+    font-size: 18px;
+    font-style: normal;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.skills > li {
+    color: #fff;
+    font-size: 18px;
+    background-color: #4685c6;
+    border-radius: 6px;
+    padding: 6px 14px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.language, .education {
+    font-size: 18px;
+}
+
+.language-skill {
+    color: #4685c6;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.specialty {
+    font-style: italic;
+}
+
+.university {
+    color: #4685c6;
+    margin-top: 5px;
+}
+
+footer {
+    width: 100%;
+    background: #4685c6;
+    margin-top: 1.5rem;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.footer-links {
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 500px;
+    color: white;
+}
+
+.footer-links a {
+    color: white;
+}
+
+.github-link a {
+    display: flex;
+    align-items: center;
+}
+
+.github-link img {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.logo-rs {
+    width: 50px;
+    height: 50px;
+    filter: invert();
+}
+
+.copy {
+    font-size: 16px;
+}
+
+@media (max-width: 900px) {
+    header, .main-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .avatar-wrapper, .info, .main-container .content, .title {
+        width: 100%;
+    }
+}
