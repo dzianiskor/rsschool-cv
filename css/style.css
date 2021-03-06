@@ -1,3 +1,17 @@
+body a {
+    text-decoration: none;
+    color: black;
+}
+
+body ul {
+    margin: 0;
+    padding: 0;
+}
+
+body li {
+    display: block;
+}
+
 main {
     display: flex;
     margin: auto;
@@ -5,14 +19,14 @@ main {
     max-width: 1200px;
 }
 
-header {
+header, .main-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
 }
 
-.avatar-wrapper {
+.avatar-wrapper, .info {
     flex-grow: 1;
     width: 200px;
     text-align: center;
@@ -57,4 +71,70 @@ header {
 
 .main-container {
     margin-top: 30px;
+}
+
+.main-container .info {
+    text-align: left;
+}
+
+.main-container .content {
+    flex-grow: 3;
+    width: 200px;
+}
+
+.info > section {
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.info-title {
+    color: #4685c6;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+    border-bottom: 2px solid #4685c6;
+    padding-bottom: 8px;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.address > img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.address > span {
+    font-size: 18px;
+    font-style: normal;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.skills > li {
+    color: #fff;
+    font-size: 18px;
+    background-color: #4685c6;
+    border-radius: 6px;
+    padding: 6px 14px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.language {
+    font-size: 18px;
+}
+
+.language-skill {
+    color: #4685c6;
+    font-style: italic;
+    margin-top: 5px;
 }
