@@ -32,3 +32,10 @@ Discord - Denis(dzianiskor)#5139
     history.push('/')
 })()
 ```
+###Education
+*Automated Data Processing Systems*\
+**Belarusian-Russian University**
+
+###LANGUAGES
+*English*\
+**Professional Working Proficiency**
