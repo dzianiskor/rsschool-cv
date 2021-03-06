@@ -36,6 +36,6 @@ Discord - Denis(dzianiskor)#5139
 *Automated Data Processing Systems*\
 **Belarusian-Russian University**
 
-###LANGUAGES
+###Languages
 *English*\
 **Professional Working Proficiency**
