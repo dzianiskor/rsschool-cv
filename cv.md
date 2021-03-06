@@ -6,7 +6,7 @@ Email - dzianiskor@gmail.com\
 GitHub - https://github.com/dzianiskor \
 Discord - Denis(dzianiskor)#5139
 
-###SKILLS
+### SKILLS
 * HTML5
 * CSS3
     * FlexBox
@@ -20,7 +20,7 @@ Discord - Denis(dzianiskor)#5139
     * jQuery
 * SQL
 
-###Code examples
+### Code examples
 ```
 (async () => {
     let payload = {code};
@@ -32,10 +32,10 @@ Discord - Denis(dzianiskor)#5139
     history.push('/')
 })()
 ```
-###Education
+### Education
 *Automated Data Processing Systems*\
 **Belarusian-Russian University**
 
-###Languages
+### Languages
 *English*\
 **Professional Working Proficiency**
