@@ -1,3 +1,15 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 body a {
     text-decoration: none;
     color: black;
@@ -17,6 +29,8 @@ main {
     margin: auto;
     flex-direction: column;
     max-width: 1200px;
+    width: 100%;
+    flex: 1 0 auto;
 }
 
 header, .main-container {
@@ -24,6 +38,10 @@ header, .main-container {
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
+}
+
+.main-container {
+    align-items: baseline;
 }
 
 .avatar-wrapper, .info {
@@ -129,7 +147,7 @@ header, .main-container {
     margin: 5px;
 }
 
-.language {
+.language, .education {
     font-size: 18px;
 }
 
@@ -137,4 +155,55 @@ header, .main-container {
     color: #4685c6;
     font-style: italic;
     margin-top: 5px;
+}
+
+.specialty {
+    font-style: italic;
+}
+
+.university {
+    color: #4685c6;
+    margin-top: 5px;
+}
+
+footer {
+    width: 100%;
+    background: #4685c6;
+    margin-top: 1.5rem;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.footer-links {
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 500px;
+    color: white;
+}
+
+.footer-links a {
+    color: white;
+}
+
+.github-link a {
+    display: flex;
+    align-items: center;
+}
+
+.github-link img {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.logo-rs {
+    width: 50px;
+    height: 50px;
+    filter: invert();
+}
+
+.copy {
+    font-size: 16px;
 }
